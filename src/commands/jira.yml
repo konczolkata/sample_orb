@@ -2,6 +2,14 @@ description: >
   This command echos "Hello World" using file inclusion.
 # What will this command do?
 # Descriptions should be short, simple, and clear.
+parameters:
+  pipeline_id:
+    type: string
+    default: << pipeline.id >>
+  pipeline_number:
+    type: string
+    default: << pipeline.number >>
+
 
 steps:
   - jira/notify:
