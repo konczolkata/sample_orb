@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  This is a sample orb project for testing purposes.
+  This is a sample orb project for testing purposes. This will be used for test different scenarios that involve orbs.
 # What will your orb allow users to accomplish?
 # Descriptions should be short, simple, and informative.
 
