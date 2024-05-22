@@ -5,10 +5,10 @@ description: >
 parameters:
   pipeline_id:
     type: string
-    default: << pipeline.id >>
+    default: "abc"
   pipeline_number:
     type: string
-    default: << pipeline.number >>
+    default: "def"
 
 
 steps:
